@@ -40,7 +40,7 @@ python email_sender.py
 
 ## 📋 Requirements
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - pandas
 - openpyxl (for Excel support)
 
