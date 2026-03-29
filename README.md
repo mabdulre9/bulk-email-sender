@@ -7,7 +7,7 @@ A powerful yet simple Python tool for sending personalized bulk emails with atta
 
 Perfect for sending certificates, invoices, reports, or any personalized documents to multiple recipients.
 
-## ✨ Features
+## Features
 
 - 🎯 **Numbered Column Selection** - Select columns by number or name for easy configuration
 - 📊 **Batch Sending** - Send emails in batches to respect daily sending limits
@@ -19,7 +19,7 @@ Perfect for sending certificates, invoices, reports, or any personalized documen
 - 🔄 **Resume Capability** - Start from any row, perfect for multi-day campaigns
 - ⚠️ **Error Handling** - Gracefully handles missing files and shows warnings
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -44,7 +44,7 @@ python email_sender.py
 - pandas
 - openpyxl (for Excel support)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 email-sender/
@@ -59,7 +59,7 @@ email-sender/
     └── Jane_Rec.pdf
 ```
 
-## 🎓 Example Use Case
+## Example Use Case
 
 ### 1. Create Your Data File
 
@@ -132,7 +132,7 @@ How many emails to send (1 to 100): 50
 ✓ Will send to rows 1 to 50 (50 emails)
 ```
 
-## 🔄 Batch Sending Examples
+## Batch Sending Examples
 
 ### Scenario 1: Gmail Daily Limit (500 emails/day)
 
@@ -168,7 +168,7 @@ Send: 500
 → Send to everyone
 ```
 
-## 📧 SMTP Providers
+## SMTP Providers
 
 The script supports all major email providers:
 
@@ -186,7 +186,7 @@ The script supports all major email providers:
 3. Generate and copy the 16-character password
 4. Use this password (not your regular Gmail password)
 
-## 🎯 Advanced Features
+## Advanced Features
 
 ### Multiple Document Types
 
@@ -233,7 +233,7 @@ Column number or name for EMAIL addresses: 2    ← Use number
 Column number or name for EMAIL addresses: Email ← Or use name
 ```
 
-## 📊 Output Example
+## Output Example
 
 ```
 SENDING EMAILS
@@ -260,7 +260,7 @@ Total in batch:      50
 💡 Next time, start from row 51 (50 recipients remaining)
 ```
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Email Provider Limits
 
@@ -283,7 +283,7 @@ Total in batch:      50
 - Check for extra spaces or hidden characters
 - File names are case-sensitive on Linux/Mac
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### "File not found" warnings
 
@@ -324,21 +324,21 @@ If you hit daily limits:
 2. Wait 24 hours
 3. Resume from the next row
 
-## 📝 Tips & Tricks
+## 📝 Suggestions
 
-💡 **Keep a log** - Write down which rows you sent each day
+**Keep a log** - Write down which rows you sent each day
 
-💡 **Test first** - Always send 2-3 test emails before the full batch
+**Test first** - Always send 2-3 test emails before the full batch
 
-💡 **Clean data** - Remove extra spaces from CSV columns and filenames
+**Clean data** - Remove extra spaces from CSV columns and filenames
 
-💡 **Organize files** - Use clear directory structure and consistent naming
+**Organize files** - Use clear directory structure and consistent naming
 
-💡 **Double-check** - Review the preview email carefully before proceeding
+**Double-check** - Review the preview email carefully before proceeding
 
-💡 **Off-peak sending** - Email delivery is faster during off-peak hours
+**Off-peak sending** - Email delivery is faster during off-peak hours
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -352,13 +352,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with Python and ❤️
 - Uses pandas for data handling
 - SMTP for reliable email delivery
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -366,7 +366,7 @@ If you encounter any issues or have questions:
 2. Review the example files in this repository
 3. Open an issue on GitHub
 
-## 🔮 Future Features
+## Future Features
 
 - [ ] HTML email templates
 - [ ] Attachment preview in UI
