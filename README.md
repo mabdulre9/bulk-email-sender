@@ -9,15 +9,15 @@ Perfect for sending certificates, invoices, reports, or any personalized documen
 
 ## Features
 
-- 🎯 **Numbered Column Selection** - Select columns by number or name for easy configuration
-- 📊 **Batch Sending** - Send emails in batches to respect daily sending limits
-- 📎 **Multiple Attachment Categories** - Certificates, recommendations, invoices, etc.
-- 🔤 **Smart Placeholders** - Use `{{name}}`, `{{email}}`, or any column as placeholder
-- 📝 **Simple Templates** - Plain text email templates with subject line
-- 🔍 **Preview Before Send** - Review the first email before bulk sending
-- 📈 **Progress Tracking** - See which row you're on and how many remain
-- 🔄 **Resume Capability** - Start from any row, perfect for multi-day campaigns
-- ⚠️ **Error Handling** - Gracefully handles missing files and shows warnings
+- **Numbered Column Selection** - Select columns by number or name for easy configuration
+- **Batch Sending** - Send emails in batches to respect daily sending limits
+- **Multiple Attachment Categories** - Certificates, recommendations, invoices, etc.
+- **Smart Placeholders** - Use `{{name}}`, `{{email}}`, or any column as placeholder
+- **Simple Templates** - Plain text email templates with subject line
+- **Preview Before Send** - Review the first email before bulk sending
+- **Progress Tracking** - See which row you're on and how many remain
+- **Resume Capability** - Start from any row, perfect for multi-day campaigns
+- **Error Handling** - Gracefully handles missing files and shows warnings
 
 ## Quick Start
 
